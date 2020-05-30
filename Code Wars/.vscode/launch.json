@@ -1,0 +1,73 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DecreaseConquer",
+            "request": "launch",
+            "mainClass": "DecreaseConquer",
+            "projectName": "Code Wars_814a09bc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Celestina",
+            "request": "launch",
+            "mainClass": "Celestina",
+            "projectName": "Code Wars_814a09bc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Knapsack",
+            "request": "launch",
+            "mainClass": "Knapsack",
+            "projectName": "Code Wars_814a09bc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CoinChange",
+            "request": "launch",
+            "mainClass": "CoinChange",
+            "projectName": "Code Wars_814a09bc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CoinRow",
+            "request": "launch",
+            "mainClass": "CoinRow",
+            "projectName": "Code Wars_814a09bc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CoinRow",
+            "request": "launch",
+            "mainClass": "CoinRow",
+            "projectName": "Code Wars_27e4231"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Coins",
+            "request": "launch",
+            "mainClass": "Coins",
+            "projectName": "Code Wars_27e4231"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "Code Wars_27e4231"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CoinChange",
+            "request": "launch",
+            "mainClass": "CoinChange",
+            "projectName": "Code Wars_27e4231"
+        }
+    ]
+}
