@@ -1,5 +1,6 @@
 public class Knapsack{
     public static int knapRec(int capacity, int[] weight, int[] value, int n){
+    	//El objeto no pesa nada
         if(n == 0 || capacity == 0){
             return 0;
         }
