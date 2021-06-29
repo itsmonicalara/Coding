@@ -1,6 +1,7 @@
-def main:
-	
+def main():
+    # TODO: add functionality
+    print("Hello World!")
 
 
 if __name__ == '__main__':
-	main()
+    main()
