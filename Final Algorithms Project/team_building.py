@@ -17,6 +17,7 @@ def team_building(my_list):
 
 # TODO: Add case if all are 1
 # TODO: It needs to take in account all zeros
+# TODO: Just works with first case
 
 '''
 def team_building(my_list):
