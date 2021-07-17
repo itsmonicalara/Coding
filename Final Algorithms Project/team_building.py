@@ -7,34 +7,25 @@ def team_building(my_list):
             if elem == 0:
                 index = lst.index(0)
                 print("Not Worked")
+            else:
+                if(lst.count(lst[0]) == len(lst)):
+                    print(-1)
+                    return -1
         new_value = [my_list.index(lst) + 1, index + 1]
         temp_list.append(new_value)
     for team in temp_list:
-        if team not in first_team and list(reversed(team)) not in first_team:
-            first_team.append(team)
+        # TODO: Half of the temp_list instead of the first team
+        if len(first_team) < 2:
+            if team not in first_team and list(reversed(team)) not in first_team:
+                first_team.append(team)
+        else:
+            if team not in second_team and list(reversed(team)) not in second_team:
+                second_team.append(team)
+
     for x in first_team:
         print(" ".join(map(str, x)))
-
-# TODO: Add case if all are 1
-# TODO: It needs to take in account all zeros
-# TODO: Just works with first case
-
-'''
-def team_building(my_list):
-    team_1 = []
-    team_2 = []
-    my_list = sorted(my_list)
-    for lst in my_list:
-        for elem in lst:
-            if elem == 0:
-                team_1.append(elem + 1)
-            else:
-                team_2.append(elem + 1)
-    if len(team_1) > len(team_2):
-        print(-1)
-    else:
-        print(team_1, team_2)
-'''
+    for y in second_team:
+        print(" ". join(map(str, y)))
 
 
 if __name__ == '__main__':
