@@ -32,3 +32,20 @@ while (n < 3) {
 }
 console.log(n);
 
+
+
+let sum = 0;
+for (let i = 0; i < 3; i++) {
+    for (let j = 5; j > 2; j--) {
+        sum = j + i;
+    }
+}
+console.log(sum); // ???
+
+const hobbies = ['Sports', 'Cooking', 'Coding'];
+let favoriteHobby;
+for (const hobby of hobbies) {
+    favoriteHobby = hobby;
+}
+console.log(favoriteHobby);
+
