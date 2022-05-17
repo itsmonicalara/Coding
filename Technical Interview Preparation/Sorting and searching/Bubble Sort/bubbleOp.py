@@ -1,3 +1,4 @@
+# Running Time: 0.054s
 # Optimized version
 def bubble(num, unordered_list):
     swapped = True
