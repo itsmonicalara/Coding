@@ -1,0 +1,22 @@
+def merge_strings(word1, word2):
+    merged = ""
+    if len(word1) == len(word2):
+        for ele in range(len(word1)):
+            merged += word1[ele]
+            merged += word2[ele]
+    elif(len(word1) > len(word2)):
+        for ele in range(len(word1)):
+            merged += word1[ele]
+            if ele < len(word2):
+                merged += word2[ele]
+    else:
+        for ele in range(len(word2)):
+            if ele < len(word1):
+                merged += word1[ele]
+            merged += word2[ele]
+    return merged
+
+if __name__ == "__main__":
+    word1 = "abcd"
+    word2 = "pq"
+    merge_strings(word1, word2)
